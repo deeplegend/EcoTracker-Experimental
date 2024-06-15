@@ -1,7 +1,5 @@
 import { motion } from "framer-motion"
 import { styles } from '../styles'
-import { EarthCanvas } from "./canvas"
-import { slideIn} from '../utils/motion'
 
 const Hero = () => {
   return (
@@ -21,7 +19,6 @@ const Hero = () => {
             <a href="" className='  text-black '>Get Started Today</a>
           </div>
         </div>
-      
       </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
