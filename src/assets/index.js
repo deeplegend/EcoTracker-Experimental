@@ -13,6 +13,9 @@ import recipe from './recipe.jpg';
 import straw from './straw.jpg';
 import tree from './tree.jpg';
 
+import industry from './smoke-hq-1.jpg'
+import analysis from './analysis-hq-1.jpg'
+
 export {
   bottle,
   brush,
@@ -26,5 +29,7 @@ export {
   mobile,
   web,
   menu,
-  close
+  close,
+  industry,
+  analysis
 };

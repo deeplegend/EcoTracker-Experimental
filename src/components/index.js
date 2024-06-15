@@ -4,6 +4,8 @@ import Navbar from './Navbar';
 import About from './About';
 import Experience from './Experience';
 import Works from './Works';
+import Footer from './Footer'
+import Quiz from './Quiz'
 
 import Contact from './Contact';
 import Calculator from './Calculator';
@@ -17,5 +19,7 @@ export {
   Contact,
   EarthCanvas,  
   StarsCanvas,
-  Calculator
+  Calculator,
+  Footer,
+  Quiz
 }

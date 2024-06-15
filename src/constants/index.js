@@ -21,11 +21,14 @@ import {
       title: "Calc",
     },
     {
-      id: "contact",
+      id: "login",
       title: "Login",
     },{
       id:"work",
       title:'FAQ'
+    },{
+      id:"quiz",
+      title:'Quiz'
     }
   ];
   

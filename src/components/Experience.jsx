@@ -11,6 +11,8 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -42,24 +44,32 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          FAQ
-        </h2>
-      </motion.div>
-
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
+      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <Navbar />
       </div>
+      <div className='bg-primary flex justify-center items-center'>
+        <div className='mt-40'>
+          <motion.div variants={textVariant()}>
+            <h2 className={`${styles.sectionHeadText} text-center`}>
+              FAQ
+            </h2>
+          </motion.div>
+
+          <div className='mt-20 flex flex-col'>
+            <VerticalTimeline>
+              {experiences.map((experience, index) => (
+                <ExperienceCard
+                  key={`experience-${index}`}
+                  experience={experience}
+                />
+              ))}
+            </VerticalTimeline>
+          </div><br /><br /><br /><br /><br /><br />
+        </div>
+      </div>
+      <Footer/>
     </>
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default Experience

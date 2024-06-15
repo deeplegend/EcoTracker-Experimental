@@ -15,14 +15,12 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white ml-5 items-center mt-20`}>Take the First Step Towards<span className="text-[#4af41f]"> a Greener Future</span></h1>
           <p className={`${styles.heroSubText} mt-10 text-white-100 ml-5`}>
           Calculate Your Carbon Footprint and Understand your impact on
-          ​the environment and discover practical ways to reduce it.
+          ​the environment<br/> and discover practical ways to reduce it.
           </p>
           <div className="bg-[#4af41f]/70 font-bold h-[50px] w-[200px] ml-5 mt-11 flex items-center justify-center rounded-[20px]  ">
             <a href="" className='  text-black '>Get Started Today</a>
           </div>
         </div>
-
-        <EarthCanvas />
       
       </div>
 
