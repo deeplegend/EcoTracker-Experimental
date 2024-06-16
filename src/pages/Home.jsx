@@ -16,7 +16,7 @@ function Home() {
           Our easy-to-use carbon footprint <br />calculator helps you understand <br />your carbon emissions
         </div>
         <div className='bg-[#e08616] w-[300px] h-[70px] flex items-center justify-center rounded-[50px] mx-auto mt-10'>
-          <a href="" className='text-[20px] text-black font-bold'>Find out more</a>
+          <a href="/about" className='text-[20px] text-black font-bold'>Find out more</a>
         </div>
       </div>
       <div className="relative w-full bg-[#e08616]">
