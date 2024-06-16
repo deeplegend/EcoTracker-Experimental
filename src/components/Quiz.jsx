@@ -8,7 +8,10 @@ function Quiz() {
     <div className="relative z-0 bg-primary">
       <Navbar/>
       <div className='mt-24'>
-      Quiz Time..
+        <div className='text-[50px] ml-10'>
+          Quiz
+        </div>
+        
       </div>
      </div>
 
