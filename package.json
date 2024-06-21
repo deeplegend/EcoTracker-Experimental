@@ -11,6 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
     "@emailjs/browser": "^4.3.3",
     "@react-three/drei": "^9.106.0",
     "@react-three/fiber": "^8.16.7",
@@ -26,6 +29,7 @@
     "three": "^0.165.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "^6.1.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",

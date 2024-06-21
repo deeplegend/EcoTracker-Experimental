@@ -29,6 +29,9 @@ import {
     },{
       id:"quiz",
       title:'Quiz'
+    },{
+      id:"reward",
+      title:'Reward'
     }
   ];
   

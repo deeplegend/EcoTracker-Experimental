@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -71,7 +70,7 @@ const Contact = () => {
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar />
       </div>
-      <div className='bg-primary flex justify-center items-center'>
+      <div className='bg-primary flex justify-center items-center pb-10'>
         <div className='mt-40'>
         <div
           className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}

@@ -47,7 +47,7 @@ const Experience = () => {
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar />
       </div>
-      <div className='bg-primary flex justify-center items-center'>
+      <div className='bg-primary flex justify-center items-center pb-10'>
         <div className='mt-40'>
           <motion.div variants={textVariant()}>
             <h2 className={`${styles.sectionHeadText} text-center`}>
@@ -64,7 +64,7 @@ const Experience = () => {
                 />
               ))}
             </VerticalTimeline>
-          </div><br /><br /><br /><br /><br /><br />
+          </div>
         </div>
       </div>
       <Footer/>

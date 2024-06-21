@@ -37,8 +37,8 @@ const About = () => {
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar />
       </div>
-      <div className='bg-primary flex justify-center items-center'>
-        <div className='mt-40'>
+      <div className='bg-primary flex justify-center items-center pb-10'>
+        <div className='mt-40 ml-20'>
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -51,7 +51,7 @@ const About = () => {
             {services.map((service, index) => (
               <ServiceCard key={service.title} index={index}{...service} />
             ))}
-          </div><br /><br /><br /><br /><br /><br />
+          </div>
         </div>
       </div>
       <Footer/>

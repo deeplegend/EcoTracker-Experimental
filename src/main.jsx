@@ -13,7 +13,7 @@ import Calculator from './components/Calculator.jsx'
 import About from './components/About.jsx'
 import Experience from './components/Experience.jsx'
 import Contact from './components/Contact.jsx'
-
+import Works from './components/Works.jsx'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +39,10 @@ const router = createBrowserRouter([
   {
     path:'login',
     element: <Contact/>
+  },
+  {
+    path:'reward',
+    element: <Works/>
   }
 ])
 
