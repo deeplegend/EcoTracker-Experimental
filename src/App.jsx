@@ -2,7 +2,6 @@ import { BrowserRouter, Link } from 'react-router-dom'
 import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas} from './components'
 import Calculator from "./components/Calculator"
 import Home from './pages/Home'
-import LoginPage from './pages/LoginPage'
 
 const App = () => {
   return (
